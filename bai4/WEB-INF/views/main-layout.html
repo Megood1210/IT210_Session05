@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org"
+      xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout">
+
+<head>
+    <meta charset="UTF-8">
+    <title layout:title-pattern="CONTENT_TITLE - Nhà hàng ABC">
+        Nhà hàng ABC
+    </title>
+</head>
+
+<body>
+
+<header style="background: #eee; padding: 10px;">
+    <h2>Nhà hàng ABC</h2>
+</header>
+
+<hr/>
+
+<div layout:fragment="content">
+    <!-- Nội dung từng trang sẽ chèn vào đây -->
+</div>
+
+<hr/>
+
+<footer style="background: #eee; padding: 10px;">
+    <p>Liên hệ: 0123-456-789</p>
+</footer>
+
+</body>
+</html>
